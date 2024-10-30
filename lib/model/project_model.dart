@@ -7,6 +7,18 @@ class Project {
 }
 
 List<Project> projectList = [
+   Project(
+    'Nike Sneaker Store App',
+    'Nike Sneaker Store App built using Flutter with Clean Architecture and BLoC for state management. This app offers a stylish and intuitive experience for browsing, favoriting, and purchasing the latest Nike sneakers! 👟💥',
+    'assets/images/Sneaker Store App.jpg',
+    'https://arshadkusman.github.io/nike-sneaker-store-demo/',
+  ),
+  Project(
+    'spotify-clone App',
+    'A Spotify clone application built using Flutter following Clean Architecture principles and state management with Bloc. ',
+    'assets/images/thumbanail.jpg',
+    'https://github.com/arshadkusman/spotify-clone',
+  ),
   Project(
     'To-Do App',
     'This project is a simple yet efficient To-Do App built with Flutter, designed using the principles of Clean Architecture. It leverages BLoC for state management and uses Shared Preferences for data persistence.',
